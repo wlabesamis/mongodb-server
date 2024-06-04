@@ -3,8 +3,8 @@ services:
   mongo: 
     image: mongo:7.0
     environment:
-      MONGO_INITDB_ROOT_USERNAME: mongoamdin
-      MONGO_INITDB_ROOT_PASSWORD: mongoamdin@1234567890
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: admin@123
     ports:
       - 27017:27017
     volumes:
